@@ -8,7 +8,7 @@ docker pull dosel/zalenium
 ```
 ### Run Docker images
 ```
-docker run --rm -ti --name zalenium -d -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock --privileged dosel/zalenium start
+docker run --rm -ti --name zalenium -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock --privileged dosel/zalenium start
 ```
 Linux Mount Volume
 ```
